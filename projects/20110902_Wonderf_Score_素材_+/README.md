@@ -1,5 +1,3 @@
-# Wonderf Score 素材 +
+# [Wonderf Score 素材 +](http://wonderfl.net/c/hxAb)
 
-favorite:11/forked:0/license:MIT
-
-<http://wonderfl.net/c/hxAb>
+favorite:11 / forked:0 / license:MIT
