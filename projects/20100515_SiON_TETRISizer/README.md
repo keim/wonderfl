@@ -2,9 +2,9 @@
 
 favorite:155 / forked:37
 
---------------------------------------------------------------------------------   
+ --------------------------------------------------------------------------------   
 TETRISiON ～ もし水口哲也がテトリスを作ったら  
---------------------------------------------------------------------------------   
+ --------------------------------------------------------------------------------   
 < controls >  
 move;[Left]-[Right]/  drop;[Down]/  hard-drop;[Up]/  L-turn;[Z]/  R-turn;[X]  
 swap;[C] = Swap current block and stocked block.  
@@ -19,7 +19,7 @@ swap;[C] = Swap current block and stocked block.
 < notice >  
 This flash uses cookie to keep hi-score.  
 If you do not want, please press "CLEAR COOKIE" button.  
---------------------------------------------------------------------------------   
+ --------------------------------------------------------------------------------   
 webpage; http://soundimpulse.sakura.ne.jp/sion-tetrisizer/
 
 ![thumbnail](./thumbnail.jpg)
