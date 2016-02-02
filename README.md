@@ -1,7 +1,7 @@
-# Source code of Flash experiments in [Wonderfl](http://wonderfl.net/user/keim_at_Si/codes).
+# All of my Flash experiments in [Wonderfl](http://wonderfl.net/user/keim_at_Si/codes).
 
 ### Sulvaging script
-You can donwload all wonderfl codes of specifyed users by `ruby wcrawl.rb -u [user id]`
+You can donwload sources of specifyed users by `ruby wcrawl.rb -u [user id]`
 
 |option|default|description|
 |---|---|---|
