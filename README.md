@@ -1,8 +1,8 @@
-# Wonderfl sulvage script
-All of my code in [Wonderfl](http://wonderfl.net/user/keim_at_Si/codes).
+# Source code of Flash experiment
+All of my ActionScript3 works in [Wonderfl](http://wonderfl.net/user/keim_at_Si/codes).
 
-You can donwload all wonderfl codes of specifyed users by
-`wcrawl.rb -u [user id]`
+### Sulvaging script
+You can donwload all wonderfl codes of specifyed users by `ruby wcrawl.rb -u [user id]`
 
 |option|default|description|
 |---|---|---|
