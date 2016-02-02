@@ -1,7 +1,7 @@
 # All of my Flash experiments in [Wonderfl](http://wonderfl.net/user/keim_at_Si/codes).
 
 ### Sulvaging tool
-You can donwload sources of specifyed users by `ruby wcrawl.rb -u [user id]`
+You can donwload all works of specifyed user by `ruby wcrawl.rb -u [user id]`
 
 |option|default|description|
 |---|---|---|
