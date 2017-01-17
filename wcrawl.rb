@@ -18,7 +18,7 @@ $accessInterval = 1   # 1 second interval for each access
 $option = {}          # network option (like proxy)
 
 OptionParser.new do |opt|
-  opt.on('-u VAL')     {|u| $user = usr}
+  opt.on('-u VAL')     {|u| $user = u}
   opt.on('-fav')       {|v| $type = 'favorites'}
   opt.on('-first VAL') {|f| $first_page = f.to_i}
   opt.on('-last VAL')  {|l| $last_page = l.to_i}
