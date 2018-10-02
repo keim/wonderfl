@@ -1,4 +1,4 @@
-# [Ambient Occlusion Rendering](http://wonderfl.net/c/7W2s)
+# [Ambient Occlusion Rendering](http://fl.corge.net/c/7W2s)
 
 favorite:17 / forked:9
 

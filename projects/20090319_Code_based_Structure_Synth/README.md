@@ -1,4 +1,4 @@
-# [Code based Structure Synth](http://wonderfl.net/c/kwXA)
+# [Code based Structure Synth](http://fl.corge.net/c/kwXA)
 
 favorite:13 / forked:3
 

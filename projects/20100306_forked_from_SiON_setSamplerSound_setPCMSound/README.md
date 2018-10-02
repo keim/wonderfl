@@ -1,4 +1,4 @@
-# [forked from: SiON setSamplerSound/setPCMSound](http://wonderfl.net/c/kOds)
+# [forked from: SiON setSamplerSound/setPCMSound](http://fl.corge.net/c/kOds)
 
 favorite:7 / forked:7
 

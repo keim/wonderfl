@@ -1,4 +1,4 @@
-# [SiON MML Edtor 2 ](http://wonderfl.net/c/yMPL)
+# [SiON MML Edtor 2 ](http://fl.corge.net/c/yMPL)
 
 favorite:27 / forked:3
 

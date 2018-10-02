@@ -1,4 +1,4 @@
-# [Bound Ball Synthesizer 2](http://wonderfl.net/c/rTG1)
+# [Bound Ball Synthesizer 2](http://fl.corge.net/c/rTG1)
 
 favorite:139 / forked:24
 

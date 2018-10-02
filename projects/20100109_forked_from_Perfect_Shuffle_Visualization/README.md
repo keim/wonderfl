@@ -1,4 +1,4 @@
-# [forked from: Perfect Shuffle Visualization](http://wonderfl.net/c/dVwy)
+# [forked from: Perfect Shuffle Visualization](http://fl.corge.net/c/dVwy)
 
 favorite:27 / forked:2
 

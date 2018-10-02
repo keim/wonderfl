@@ -1,4 +1,4 @@
-# [forked from: How to give slide effect in guitar](http://wonderfl.net/c/dnn2)
+# [forked from: How to give slide effect in guitar](http://fl.corge.net/c/dnn2)
 
 favorite:0 / forked:0
 

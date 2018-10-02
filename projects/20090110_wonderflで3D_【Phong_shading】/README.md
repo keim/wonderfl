@@ -1,4 +1,4 @@
-# [wonderflで3D 【Phong shading】](http://wonderfl.net/c/fYF5)
+# [wonderflで3D 【Phong shading】](http://fl.corge.net/c/fYF5)
 
 favorite:19 / forked:5
 

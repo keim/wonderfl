@@ -1,4 +1,4 @@
-# [Arena Shooting in 100 Lines](http://wonderfl.net/c/6xT3)
+# [Arena Shooting in 100 Lines](http://fl.corge.net/c/6xT3)
 
 favorite:36 / forked:10
 

@@ -1,4 +1,4 @@
-# [4k fly-through](http://wonderfl.net/c/8QjX)
+# [4k fly-through](http://fl.corge.net/c/8QjX)
 
 favorite:96 / forked:9
 

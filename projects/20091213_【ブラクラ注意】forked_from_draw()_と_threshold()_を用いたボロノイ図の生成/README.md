@@ -1,4 +1,4 @@
-# [【ブラクラ注意】forked from: draw() と threshold() を用いたボロノイ図の生成](http://wonderfl.net/c/yhnJ)
+# [【ブラクラ注意】forked from: draw() と threshold() を用いたボロノイ図の生成](http://fl.corge.net/c/yhnJ)
 
 favorite:4 / forked:2
 

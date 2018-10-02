@@ -1,4 +1,4 @@
-# [How to use CannonML ?](http://wonderfl.net/c/khgM)
+# [How to use CannonML ?](http://fl.corge.net/c/khgM)
 
 favorite:4 / forked:4
 

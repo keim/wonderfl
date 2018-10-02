@@ -1,4 +1,4 @@
-# [GIMMICK - FANTAISIE IMPROMPTU -](http://wonderfl.net/c/myhA)
+# [GIMMICK - FANTAISIE IMPROMPTU -](http://fl.corge.net/c/myhA)
 
 favorite:81 / forked:11
 

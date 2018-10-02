@@ -1,4 +1,4 @@
-# [Smoky text forked from: adobe challenge 1](http://wonderfl.net/c/qvqR)
+# [Smoky text forked from: adobe challenge 1](http://fl.corge.net/c/qvqR)
 
 favorite:41 / forked:6
 

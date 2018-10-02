@@ -1,4 +1,4 @@
-# [BulletRunner Sample](http://wonderfl.net/c/bb28)
+# [BulletRunner Sample](http://fl.corge.net/c/bb28)
 
 favorite:38 / forked:13
 

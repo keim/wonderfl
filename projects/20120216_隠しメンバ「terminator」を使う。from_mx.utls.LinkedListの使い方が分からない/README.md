@@ -1,4 +1,4 @@
-# [隠しメンバ「terminator」を使う。from: mx.utls.LinkedListの使い方が分からない](http://wonderfl.net/c/iV8y)
+# [隠しメンバ「terminator」を使う。from: mx.utls.LinkedListの使い方が分からない](http://fl.corge.net/c/iV8y)
 
 favorite:4 / forked:0
 

@@ -1,4 +1,4 @@
-# [PuyoDot with lighting](http://wonderfl.net/c/j3hK)
+# [PuyoDot with lighting](http://fl.corge.net/c/j3hK)
 
 favorite:37 / forked:6
 

@@ -1,4 +1,4 @@
-# [Wave Shape Editor](http://wonderfl.net/c/lgUJ)
+# [Wave Shape Editor](http://fl.corge.net/c/lgUJ)
 
 favorite:25 / forked:3
 

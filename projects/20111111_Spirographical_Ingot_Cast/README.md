@@ -1,4 +1,4 @@
-# [Spirographical Ingot Cast](http://wonderfl.net/c/3LzE)
+# [Spirographical Ingot Cast](http://fl.corge.net/c/3LzE)
 
 favorite:61 / forked:5
 

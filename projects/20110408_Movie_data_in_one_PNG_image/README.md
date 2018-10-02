@@ -1,4 +1,4 @@
-# [Movie data in one PNG image](http://wonderfl.net/c/dfMj)
+# [Movie data in one PNG image](http://fl.corge.net/c/dfMj)
 
 favorite:115 / forked:9
 
@@ -8,7 +8,7 @@ The original SEGA Genesis arrange is inspired from http://www.youtube.com/watch?
 And the binary data for SEGA Genesis here  http://68000.web.fc2.com/bad_apple.html  
 【東方】Bad Apple!!　ＰＶ【影絵】http://www.nicovideo.jp/watch/sm8628149 http://www.youtube.com/watch?v=FtutLA63Cp8  
 【第5回MMD杯本選】 Bad AApple!! http://www.nicovideo.jp/watch/sm11820316 http://www.youtube.com/watch?v=BF_P--N4ozg  
-LCD Rendering http://wonderfl.net/c/7lZE  
+LCD Rendering http://fl.corge.net/c/7lZE  
 blog; 技術的解説 http://d.hatena.ne.jp/keim_at_Si/20110404/p1  
 webpage; http://soundimpulse.sakura.ne.jp/movie-data-in-one-png-image/
 

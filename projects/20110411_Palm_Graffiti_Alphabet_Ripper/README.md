@@ -1,4 +1,4 @@
-# [Palm Graffiti Alphabet Ripper](http://wonderfl.net/c/aLQa)
+# [Palm Graffiti Alphabet Ripper](http://fl.corge.net/c/aLQa)
 
 favorite:8 / forked:1
 

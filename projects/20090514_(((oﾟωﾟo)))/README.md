@@ -1,4 +1,4 @@
-# [(((oﾟωﾟo)))](http://wonderfl.net/c/kYfu)
+# [(((oﾟωﾟo)))](http://fl.corge.net/c/kYfu)
 
 favorite:51 / forked:13
 

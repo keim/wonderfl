@@ -1,4 +1,4 @@
-# [Wonderfl user information analyzer (YAWA test)](http://wonderfl.net/c/uGmR)
+# [Wonderfl user information analyzer (YAWA test)](http://fl.corge.net/c/uGmR)
 
 favorite:4 / forked:0
 

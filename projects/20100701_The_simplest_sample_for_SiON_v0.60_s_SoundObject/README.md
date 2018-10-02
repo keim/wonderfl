@@ -1,4 +1,4 @@
-# [The simplest sample for SiON v0.60's SoundObject](http://wonderfl.net/c/rvZi)
+# [The simplest sample for SiON v0.60's SoundObject](http://fl.corge.net/c/rvZi)
 
 favorite:4 / forked:7
 

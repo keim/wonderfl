@@ -1,4 +1,4 @@
-# [wonderflで音楽♪Like the wind from:UpDownRoad](http://wonderfl.net/c/xObn)
+# [wonderflで音楽♪Like the wind from:UpDownRoad](http://fl.corge.net/c/xObn)
 
 favorite:13 / forked:2
 

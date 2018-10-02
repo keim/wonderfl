@@ -1,4 +1,4 @@
-# [意味が分からないw　(ﾟдﾟ)](http://wonderfl.net/c/bZvd)
+# [意味が分からないw　(ﾟдﾟ)](http://fl.corge.net/c/bZvd)
 
 favorite:57 / forked:8
 

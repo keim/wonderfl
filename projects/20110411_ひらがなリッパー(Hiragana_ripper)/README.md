@@ -1,4 +1,4 @@
-# [ひらがなリッパー(Hiragana ripper)](http://wonderfl.net/c/zKpY)
+# [ひらがなリッパー(Hiragana ripper)](http://fl.corge.net/c/zKpY)
 
 favorite:40 / forked:1
 

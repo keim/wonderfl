@@ -1,4 +1,4 @@
-# [Palm Graffiti Pad](http://wonderfl.net/c/dbcw)
+# [Palm Graffiti Pad](http://fl.corge.net/c/dbcw)
 
 favorite:11 / forked:1
 

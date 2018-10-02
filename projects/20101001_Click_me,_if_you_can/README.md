@@ -1,4 +1,4 @@
-# [Click me, if you can](http://wonderfl.net/c/n4Ku)
+# [Click me, if you can](http://fl.corge.net/c/n4Ku)
 
 favorite:91 / forked:25
 

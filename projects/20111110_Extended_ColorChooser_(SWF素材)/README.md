@@ -1,4 +1,4 @@
-# [Extended ColorChooser (SWF素材)](http://wonderfl.net/c/eMzU)
+# [Extended ColorChooser (SWF素材)](http://fl.corge.net/c/eMzU)
 
 favorite:71 / forked:11
 

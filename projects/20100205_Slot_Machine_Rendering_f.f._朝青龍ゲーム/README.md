@@ -1,4 +1,4 @@
-# [Slot Machine Rendering f.f.: 朝青龍ゲーム](http://wonderfl.net/c/hmY1)
+# [Slot Machine Rendering f.f.: 朝青龍ゲーム](http://fl.corge.net/c/hmY1)
 
 favorite:17 / forked:9
 

@@ -1,4 +1,4 @@
-# [Wonderf Score 素材 +](http://wonderfl.net/c/hxAb)
+# [Wonderf Score 素材 +](http://fl.corge.net/c/hxAb)
 
 favorite:11 / forked:0
 

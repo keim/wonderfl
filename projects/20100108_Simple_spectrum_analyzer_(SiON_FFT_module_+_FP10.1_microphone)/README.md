@@ -1,4 +1,4 @@
-# [Simple spectrum analyzer (SiON FFT module + FP10.1 microphone)](http://wonderfl.net/c/bxCT)
+# [Simple spectrum analyzer (SiON FFT module + FP10.1 microphone)](http://fl.corge.net/c/bxCT)
 
 favorite:18 / forked:15
 

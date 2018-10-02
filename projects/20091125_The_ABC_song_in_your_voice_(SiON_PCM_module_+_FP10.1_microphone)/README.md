@@ -1,4 +1,4 @@
-# [The ABC song in your voice (SiON PCM module + FP10.1 microphone)](http://wonderfl.net/c/vGHQ)
+# [The ABC song in your voice (SiON PCM module + FP10.1 microphone)](http://fl.corge.net/c/vGHQ)
 
 favorite:22 / forked:8
 

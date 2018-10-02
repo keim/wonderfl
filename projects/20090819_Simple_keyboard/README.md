@@ -1,4 +1,4 @@
-# [Simple keyboard](http://wonderfl.net/c/aolu)
+# [Simple keyboard](http://fl.corge.net/c/aolu)
 
 favorite:27 / forked:11
 

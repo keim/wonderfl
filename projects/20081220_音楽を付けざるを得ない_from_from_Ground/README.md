@@ -1,4 +1,4 @@
-# [音楽を付けざるを得ない from:from:Ground](http://wonderfl.net/c/m3SO)
+# [音楽を付けざるを得ない from:from:Ground](http://fl.corge.net/c/m3SO)
 
 favorite:5 / forked:2
 

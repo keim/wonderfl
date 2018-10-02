@@ -1,4 +1,4 @@
-# [手打ち圧縮 ff: カオス ff: あなたのイベントハンドラを教えて！](http://wonderfl.net/c/2GzS)
+# [手打ち圧縮 ff: カオス ff: あなたのイベントハンドラを教えて！](http://fl.corge.net/c/2GzS)
 
 favorite:6 / forked:0
 

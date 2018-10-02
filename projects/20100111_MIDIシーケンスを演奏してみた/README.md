@@ -1,4 +1,4 @@
-# [MIDIシーケンスを演奏してみた](http://wonderfl.net/c/eZnB)
+# [MIDIシーケンスを演奏してみた](http://fl.corge.net/c/eZnB)
 
 favorite:33 / forked:6
 

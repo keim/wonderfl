@@ -1,4 +1,4 @@
-# [Metallic soft cube](http://wonderfl.net/c/A2Hq)
+# [Metallic soft cube](http://fl.corge.net/c/A2Hq)
 
 favorite:74 / forked:7
 

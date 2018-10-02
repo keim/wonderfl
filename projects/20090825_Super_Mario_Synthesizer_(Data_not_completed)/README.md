@@ -1,4 +1,4 @@
-# [Super Mario Synthesizer (Data not completed)](http://wonderfl.net/c/iFVe)
+# [Super Mario Synthesizer (Data not completed)](http://fl.corge.net/c/iFVe)
 
 favorite:103 / forked:18
 

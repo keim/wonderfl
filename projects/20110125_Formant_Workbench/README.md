@@ -1,4 +1,4 @@
-# [Formant Workbench](http://wonderfl.net/c/6aTz)
+# [Formant Workbench](http://fl.corge.net/c/6aTz)
 
 favorite:18 / forked:0
 

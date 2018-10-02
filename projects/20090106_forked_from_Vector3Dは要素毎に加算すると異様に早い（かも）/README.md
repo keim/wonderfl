@@ -1,4 +1,4 @@
-# [forked from: Vector3Dは要素毎に加算すると異様に早い（かも）](http://wonderfl.net/c/ycJM)
+# [forked from: Vector3Dは要素毎に加算すると異様に早い（かも）](http://fl.corge.net/c/ycJM)
 
 favorite:1 / forked:0
 

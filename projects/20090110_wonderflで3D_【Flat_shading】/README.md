@@ -1,4 +1,4 @@
-# [wonderflで3D 【Flat shading】](http://wonderfl.net/c/a4rH)
+# [wonderflで3D 【Flat shading】](http://fl.corge.net/c/a4rH)
 
 favorite:25 / forked:12
 

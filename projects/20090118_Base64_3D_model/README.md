@@ -1,4 +1,4 @@
-# [Base64 3D model](http://wonderfl.net/c/sFIV)
+# [Base64 3D model](http://fl.corge.net/c/sFIV)
 
 favorite:7 / forked:2
 

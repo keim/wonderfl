@@ -1,4 +1,4 @@
-# [forked from: action_demo + type_demo](http://wonderfl.net/c/waoi)
+# [forked from: action_demo + type_demo](http://fl.corge.net/c/waoi)
 
 favorite:20 / forked:1
 

@@ -1,4 +1,4 @@
-# [Beat sort](http://wonderfl.net/c/5uuf)
+# [Beat sort](http://fl.corge.net/c/5uuf)
 
 favorite:9 / forked:1
 

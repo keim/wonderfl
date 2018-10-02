@@ -1,4 +1,4 @@
-# [Minimal Gradient Editor (SWF素材)](http://wonderfl.net/c/6i8T)
+# [Minimal Gradient Editor (SWF素材)](http://fl.corge.net/c/6i8T)
 
 favorite:15 / forked:2
 

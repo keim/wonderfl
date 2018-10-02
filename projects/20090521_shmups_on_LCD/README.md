@@ -1,4 +1,4 @@
-# [shmups on LCD](http://wonderfl.net/c/7lZE)
+# [shmups on LCD](http://fl.corge.net/c/7lZE)
 
 favorite:212 / forked:55
 

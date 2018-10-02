@@ -1,4 +1,4 @@
-# [wonderflで音楽♪Final TakeOff from:ABC flyer](http://wonderfl.net/c/3lNM)
+# [wonderflで音楽♪Final TakeOff from:ABC flyer](http://fl.corge.net/c/3lNM)
 
 favorite:25 / forked:3
 

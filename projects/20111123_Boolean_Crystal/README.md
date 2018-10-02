@@ -1,4 +1,4 @@
-# [Boolean Crystal](http://wonderfl.net/c/vpLs)
+# [Boolean Crystal](http://fl.corge.net/c/vpLs)
 
 favorite:66 / forked:10
 

@@ -1,4 +1,4 @@
-# [TinySiOPM MML workbench](http://wonderfl.net/c/moSo)
+# [TinySiOPM MML workbench](http://fl.corge.net/c/moSo)
 
 favorite:15 / forked:3
 

@@ -1,4 +1,4 @@
-# [FlashTextEngine の真価 f.f.: FTE（FlashTextEngine）を使ってみる on 2010-1-29](http://wonderfl.net/c/9Z86)
+# [FlashTextEngine の真価 f.f.: FTE（FlashTextEngine）を使ってみる on 2010-1-29](http://fl.corge.net/c/9Z86)
 
 favorite:27 / forked:10
 

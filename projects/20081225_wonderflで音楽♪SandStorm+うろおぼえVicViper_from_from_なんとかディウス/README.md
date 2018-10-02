@@ -1,4 +1,4 @@
-# [wonderflで音楽♪SandStorm+うろおぼえVicViper from:from:なんとかディウス](http://wonderfl.net/c/MLTd)
+# [wonderflで音楽♪SandStorm+うろおぼえVicViper from:from:なんとかディウス](http://fl.corge.net/c/MLTd)
 
 favorite:13 / forked:11
 

@@ -1,4 +1,4 @@
-# [ABC flyer](http://wonderfl.net/c/f2Xu)
+# [ABC flyer](http://fl.corge.net/c/f2Xu)
 
 favorite:152 / forked:50
 

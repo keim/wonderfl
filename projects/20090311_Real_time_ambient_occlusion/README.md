@@ -1,4 +1,4 @@
-# [Real time ambient occlusion](http://wonderfl.net/c/nvOI)
+# [Real time ambient occlusion](http://fl.corge.net/c/nvOI)
 
 favorite:56 / forked:9
 

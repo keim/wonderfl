@@ -1,4 +1,4 @@
-# [こするげーむ forked from: こするボタン](http://wonderfl.net/c/mpJP)
+# [こするげーむ forked from: こするボタン](http://fl.corge.net/c/mpJP)
 
 favorite:8 / forked:8
 

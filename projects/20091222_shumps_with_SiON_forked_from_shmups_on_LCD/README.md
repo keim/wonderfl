@@ -1,4 +1,4 @@
-# [shumps with SiON forked from: shmups on LCD](http://wonderfl.net/c/nQh1)
+# [shumps with SiON forked from: shmups on LCD](http://fl.corge.net/c/nQh1)
 
 favorite:53 / forked:3
 

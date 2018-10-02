@@ -1,4 +1,4 @@
-# [Depth buffer test](http://wonderfl.net/c/2NPi)
+# [Depth buffer test](http://fl.corge.net/c/2NPi)
 
 favorite:37 / forked:3
 

@@ -1,4 +1,4 @@
-# [Puppyish Pentatonicism](http://wonderfl.net/c/toV4)
+# [Puppyish Pentatonicism](http://fl.corge.net/c/toV4)
 
 favorite:166 / forked:38
 

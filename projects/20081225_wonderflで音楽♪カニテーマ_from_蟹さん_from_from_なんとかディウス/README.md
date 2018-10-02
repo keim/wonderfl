@@ -1,4 +1,4 @@
-# [wonderflで音楽♪カニテーマ from:蟹さん from:from:なんとかディウス](http://wonderfl.net/c/eTb6)
+# [wonderflで音楽♪カニテーマ from:蟹さん from:from:なんとかディウス](http://fl.corge.net/c/eTb6)
 
 favorite:10 / forked:30
 

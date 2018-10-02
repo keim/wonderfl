@@ -1,4 +1,4 @@
-# [forked from: fladdict challenge for professionals](http://wonderfl.net/c/vDHY)
+# [forked from: fladdict challenge for professionals](http://fl.corge.net/c/vDHY)
 
 favorite:20 / forked:5
 

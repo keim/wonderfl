@@ -1,4 +1,4 @@
-# [Dive into Cyberspace forked from: fladdict challenge for professionals](http://wonderfl.net/c/jEBd)
+# [Dive into Cyberspace forked from: fladdict challenge for professionals](http://fl.corge.net/c/jEBd)
 
 favorite:135 / forked:21
 

@@ -1,4 +1,4 @@
-# [draw() と threshold() を用いたボロノイ図の生成の高速化(と新editorお試し)](http://wonderfl.net/c/fqub)
+# [draw() と threshold() を用いたボロノイ図の生成の高速化(と新editorお試し)](http://fl.corge.net/c/fqub)
 
 favorite:18 / forked:2
 

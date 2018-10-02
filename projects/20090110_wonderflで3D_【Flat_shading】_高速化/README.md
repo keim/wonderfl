@@ -1,4 +1,4 @@
-# [wonderflで3D 【Flat shading】 高速化](http://wonderfl.net/c/h19z)
+# [wonderflで3D 【Flat shading】 高速化](http://fl.corge.net/c/h19z)
 
 favorite:9 / forked:3
 

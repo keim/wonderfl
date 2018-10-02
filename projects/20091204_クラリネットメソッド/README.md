@@ -1,4 +1,4 @@
-# [クラリネットメソッド](http://wonderfl.net/c/bHp5)
+# [クラリネットメソッド](http://fl.corge.net/c/bHp5)
 
 favorite:7 / forked:3
 

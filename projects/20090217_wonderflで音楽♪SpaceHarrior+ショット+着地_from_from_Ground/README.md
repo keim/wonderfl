@@ -1,4 +1,4 @@
-# [wonderflで音楽♪SpaceHarrior+ショット+着地 from:from:Ground](http://wonderfl.net/c/aawB)
+# [wonderflで音楽♪SpaceHarrior+ショット+着地 from:from:Ground](http://fl.corge.net/c/aawB)
 
 favorite:14 / forked:4
 
