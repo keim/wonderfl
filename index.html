@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>Flash works in wonderfl</title>
+<title>Flash works</title>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -16,6 +16,15 @@
   width: 160px;
   height: 160px;
   margin: 6px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+.content-item-header {
+  position: relative;
+  width: 100%;
+  margin: 6px;
+  padding: 6px;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   overflow: hidden;
@@ -58,6 +67,7 @@
   padding: 0px 6px;
 }
 #content>.content-item { display:none;}
+#content>.content-item-header { display:none;}
 #content.all>.content-item { display:block;}
 #content.game>.content-item.game { display:block;}
 #content.sound>.content-item.sound { display:block;}
@@ -74,15 +84,21 @@
 #content.o50>.content-item.o150 { display:block;}
 #content.o100>.content-item.o150 { display:block;}
 #content.o150>.content-item.o150 { display:block;}
+#content.sion>.content-item-header.sion { display:block;}
 
 </style>
 <script>
+function filter(tag) {
+  $(".nav-item>a").removeClass("active");
+  $(".nav-item>a[tag='"+tag+"']").addClass("active");
+  $("#content").removeClass().addClass(tag);
+}
+
 $(()=>{
-  console.log("ok");
+	if (location.hash) filter(location.hash.substr(1));
   $(".nav-item>a").on("click", e=>{
     const $t = $(e.currentTarget);
-    $(".nav-item>a").removeClass("active");
-    $("#content").removeClass().addClass($t.addClass("active").attr("tag"));
+    filter($t.attr("tag"));
     return false;
   });
 });
@@ -93,7 +109,7 @@ $(()=>{
   <a class="nav-link" href="http://keim.github.io"><i class="fas fa-home"></i></a></li>
 </nav>
 
-<h2>Flash works in wonderfl</h2>
+<h2>Flash works</h2>
 <ul class="nav nav-tabs">
   <li class="nav-item"><a class="nav-link active" href="#" tag="all">All</a></li>
   <li class="nav-item"><a class="nav-link" href="#" tag="game">Game</a></li>
@@ -104,9 +120,16 @@ $(()=>{
   <li class="nav-item"><a class="nav-link" href="#" tag="o50"><i class="fas fa-heart"></i>&gt;50</a></li>
   <li class="nav-item"><a class="nav-link" href="#" tag="o100"><i class="fas fa-heart"></i>&gt;100</a></li>
   <li class="nav-item"><a class="nav-link" href="#" tag="o150"><i class="fas fa-heart"></i>&gt;150</a></li>
-  <li class="nav-item"><a class="nav-link" href="#" tag="game">SiON related</a></li>
+  <li class="nav-item"><a class="nav-link" href="#" tag="sion">SiON related</a></li>
 </ul>
 <div id="content" class="all">
+	<div class="content-item-header sion">
+		<a class="link" href="https://sites.google.com/view/sion/"><h3>SiON softsynth library for ActionScript3</h3></a>
+		<a class="btn btn-primary" href="http://keim.github.io/SiONMMLEditor/">SiON MML Editor</a>
+		<a class="btn btn-secondary" href="http://keim.github.io/SiON/asdoc/" target="_blank">AS3 API Reference</a>
+		<a class="btn btn-secondary" href="http://keim.github.io/SiON/mmlref/sion_mml_reference_e.html">MML Reference (EN)</a>
+		<a class="btn btn-secondary" href="http://keim.github.io/SiON/mmlref/sion_mml_reference.html">MML Reference (JP)</a>
+	</div>
   <div class="content-item o25 sound"><img class="thumb" src="./projects/20081218_●/thumbnail.jpg"><a class="fllink" target="_blank" href="http://fl.corge.net/c/viWw"><div class="title">●</div><div class="favs"><i class="fas fa-heart"></i>38<i class="fas fa-code-branch"></i>20</div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081218_●/"><i class="fab fa-github"></i></a></div>
   <div class="content-item o50 sound"><img class="thumb" src="./projects/20081219_((♪))/thumbnail.jpg"><a class="fllink" target="_blank" href="http://fl.corge.net/c/qXEm"><div class="title">((♪))</div><div class="favs"><i class="fas fa-heart"></i>58<i class="fas fa-code-branch"></i>13</div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081219_((♪))/"><i class="fab fa-github"></i></a></div>
   <div class="content-item game sound"><img class="thumb" src="./projects/20081220_音楽を付けざるを得ない_from_from_Ground/thumbnail.jpg"><a class="fllink" target="_blank" href="http://fl.corge.net/c/m3SO"><div class="title">音楽を付けざるを得ない_from_from_Ground</div><div class="favs"><i class="fas fa-heart"></i>5<i class="fas fa-code-branch"></i>2</div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081220_音楽を付けざるを得ない_from_from_Ground/"><i class="fab fa-github"></i></a></div>
