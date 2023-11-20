@@ -109,7 +109,9 @@ $(()=>{
 	if (location.hash) filter(location.hash.substr(1));
   $(".nav-item>a").on("click", e=>{
     const $t = $(e.currentTarget);
-    filter($t.attr("tag"));
+    tag = $t.attr("tag");
+    filter(tag);
+    history.pushState(tag, "", "#"+tag);
     return false;
   });
 });
@@ -122,7 +124,7 @@ $(()=>{
 </nav>
 
 <h2>My Flash works</h2>
-<small>All links are archived in <a href="http://fl.corge.net">http://fl.corge.net/</a> by <a href="https://twitter.com/shohei909">@shohei909</a></small>
+<!--<small>All links are archived in <a href="http://fl.corge.net">http://fl.corge.net/</a> by <a href="https://twitter.com/shohei909">@shohei909</a></small>-->
 <ul class="nav nav-tabs">
   <li class="nav-item"><a class="nav-link active" href="#" tag="all">All</a></li>
   <li class="nav-item"><a class="nav-link" href="#" tag="game">Game</a></li>
@@ -144,6 +146,7 @@ $(()=>{
     <a class="btn btn-secondary" href="http://keim.github.io/SiON/mmlref/sion_mml_reference.html">MML Reference (JP)</a>
 		<a class="btn btn-primary" href="http://keim.github.io/SiONMMLEditor/">SiON MML Editor</a>
 	</div>
+  <div class="content-item o25 sound"><a class="fllink" target="_blank" href="./projects/20081218_●/"><img class="thumb" src="./projects/20081218_●/thumbnail.jpg"><div class="caption"><div class="title">●</div><div class="date">2008/12/18</div><div class="favs"><i class="fas fa-heart"></i>38<i class="fas fa-code-branch"></i>20</div></div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081218_●/"><i class="fab fa-github"></i></a></div>
   <div class="content-item o25 sound"><a class="fllink" target="_blank" href="http://fl.corge.net/c/viWw"><img class="thumb" src="./projects/20081218_●/thumbnail.jpg"><div class="caption"><div class="title">●</div><div class="date">2008/12/18</div><div class="favs"><i class="fas fa-heart"></i>38<i class="fas fa-code-branch"></i>20</div></div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081218_●/"><i class="fab fa-github"></i></a></div>
   <div class="content-item o50 sound"><a class="fllink" target="_blank" href="http://fl.corge.net/c/qXEm"><img class="thumb" src="./projects/20081219_((♪))/thumbnail.jpg"><div class="caption"><div class="title">((♪))</div><div class="date">2008/12/19</div><div class="favs"><i class="fas fa-heart"></i>58<i class="fas fa-code-branch"></i>13</div></div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081219_((♪))/"><i class="fab fa-github"></i></a></div>
   <div class="content-item game sound"><a class="fllink" target="_blank" href="http://fl.corge.net/c/m3SO"><img class="thumb" src="./projects/20081220_音楽を付けざるを得ない_from_from_Ground/thumbnail.jpg"><div class="caption"><div class="title">音楽を付けざるを得ない_from_from_Ground</div><div class="date">2008/12/20</div><div class="favs"><i class="fas fa-heart"></i>5<i class="fas fa-code-branch"></i>2</div></div></a><a class="ghlink" href="https://github.com/keim/wonderfl/tree/master/projects/20081220_音楽を付けざるを得ない_from_from_Ground/"><i class="fab fa-github"></i></a></div>
