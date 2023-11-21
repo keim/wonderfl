@@ -1,36 +1,32 @@
-<!DOCTYPE html>
-<title>Ruffle</title>
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+﻿<!DOCTYPE html>
+<title>MIDIシーケンスを演奏してみた</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<script>
-  function filter(tag) {
-    $(".nav-item>a").removeClass("active");
-    $(".nav-item>a[tag='"+tag+"']").addClass("active");
-    $("#content").removeClass().addClass(tag);
-  }
-  
-  $(()=>{
-    if (location.hash) filter(location.hash.substr(1));
-    $(".nav-item>a").on("click", e=>{
-      const $t = $(e.currentTarget);
-      tag = $t.attr("tag");
-      filter(tag);
-      history.pushState(tag, "", "#"+tag);
-      return false;
-    });
-  });
-</script>
-  
-<div class="container-fluid">
+
+<style>
+.desc {
+  width: 100%;
+  margin: 4px;
+  padding: 8px;
+  border: solid #999 1px;
+  border-radius: 4px;
+}
+</style>
+
+<div class="container">
   <nav class="nav">
     <a class="nav-link" href="http://keim.github.io"><i class="fas fa-home"></i></a></li>
     <a class="nav-link" href="https://github.com/keim"><i class="fab fa-github"></i></a></li>
   </nav>
-  <h2>My Flash works</h2>
-  <a href="https://keim.github.io/wonderfl/">&lt;&lt; back</a>
+
+  <h2>MIDIシーケンスを演奏してみた</h2>
+  <div class="desc">
+    <h5><i class="fas fa-heart"></i> : 33 / <i class="fas fa-code-branch"></i> : 6 </h5>
+デフォルトのMIDIは，kashiwa@正直日記さんのものをお借りしました．  <br>最初に，ドラムをプリレンダリングするため，少し待ってください．  <br>ほんのちょっと複雑なMIDIファイルを鳴らすだけで，  <br>誰でも簡単にブラウザクラッシュができます．  <br>  <br>SiON v0.652よりMIDI再生機能として搭載されました。http://soundimpulse.sakura.ne.jp/sion-midi-player/  <br>webpage; http://soundimpulse.sakura.ne.jp/play-midi-on-wonderfl/
+  </div>
+
   <object>
-    <embed src="main.swf" width="465" height="465"/>
+    <embed src="%swf%" width="465" height="465"/>
   </object>
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </div>

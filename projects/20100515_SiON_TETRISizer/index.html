@@ -1,34 +1,30 @@
-<!DOCTYPE html>
-<title>Ruffle</title>
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+﻿<!DOCTYPE html>
+<title>SiON TETRISizer</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<script>
-  function filter(tag) {
-    $(".nav-item>a").removeClass("active");
-    $(".nav-item>a[tag='"+tag+"']").addClass("active");
-    $("#content").removeClass().addClass(tag);
-  }
-  
-  $(()=>{
-    if (location.hash) filter(location.hash.substr(1));
-    $(".nav-item>a").on("click", e=>{
-      const $t = $(e.currentTarget);
-      tag = $t.attr("tag");
-      filter(tag);
-      history.pushState(tag, "", "#"+tag);
-      return false;
-    });
-  });
-</script>
-  
-<div class="container-fluid">
+
+<style>
+.desc {
+  width: 100%;
+  margin: 4px;
+  padding: 8px;
+  border: solid #999 1px;
+  border-radius: 4px;
+}
+</style>
+
+<div class="container">
   <nav class="nav">
     <a class="nav-link" href="http://keim.github.io"><i class="fas fa-home"></i></a></li>
     <a class="nav-link" href="https://github.com/keim"><i class="fab fa-github"></i></a></li>
   </nav>
-  <h2>My Flash works</h2>
-  <a href="https://keim.github.io/wonderfl/">&lt;&lt; back</a>
+
+  <h2>SiON TETRISizer</h2>
+  <div class="desc">
+    <h5><i class="fas fa-heart"></i> : 155 / <i class="fas fa-code-branch"></i> : 37 </h5>
+ --------------------------------------------------------------------------------   <br>TETRISiON ～ もし水口哲也がテトリスを作ったら  <br> --------------------------------------------------------------------------------   <br>< controls >  <br>move;[Left]-[Right]/  drop;[Down]/  hard-drop;[Up]/  L-turn;[Z]/  R-turn;[X]  <br>swap;[C] = Swap current block and stocked block.  <br>< special rules >  <br>1) The level increases by 1 erasing.  <br>2) The game is finished at level 32.  <br>3) The field has only 8 rows.  <br>4) You can erase lines with "chain combo".  <br>5) You can stock 1 block and swap it wherever.  <br>6) The bonus is doubled over level 24.  <br>7) [bonus] = ([erased line count]^2 + [chain combo count]^2) * 100  <br>< notice >  <br>This flash uses cookie to keep hi-score.  <br>If you do not want, please press "CLEAR COOKIE" button.  <br> --------------------------------------------------------------------------------   <br>webpage; http://soundimpulse.sakura.ne.jp/sion-tetrisizer/
+  </div>
+
   <object>
     <embed src="main.swf" width="465" height="465"/>
   </object>

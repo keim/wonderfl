@@ -1,34 +1,30 @@
-<!DOCTYPE html>
-<title>Ruffle</title>
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+﻿<!DOCTYPE html>
+<title>forked from: Vector3Dは要素毎に加算すると異様に早い（かも）</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<script>
-  function filter(tag) {
-    $(".nav-item>a").removeClass("active");
-    $(".nav-item>a[tag='"+tag+"']").addClass("active");
-    $("#content").removeClass().addClass(tag);
-  }
-  
-  $(()=>{
-    if (location.hash) filter(location.hash.substr(1));
-    $(".nav-item>a").on("click", e=>{
-      const $t = $(e.currentTarget);
-      tag = $t.attr("tag");
-      filter(tag);
-      history.pushState(tag, "", "#"+tag);
-      return false;
-    });
-  });
-</script>
-  
-<div class="container-fluid">
+
+<style>
+.desc {
+  width: 100%;
+  margin: 4px;
+  padding: 8px;
+  border: solid #999 1px;
+  border-radius: 4px;
+}
+</style>
+
+<div class="container">
   <nav class="nav">
     <a class="nav-link" href="http://keim.github.io"><i class="fas fa-home"></i></a></li>
     <a class="nav-link" href="https://github.com/keim"><i class="fab fa-github"></i></a></li>
   </nav>
-  <h2>My Flash works</h2>
-  <a href="https://keim.github.io/wonderfl/">&lt;&lt; back</a>
+
+  <h2>forked from: Vector3Dは要素毎に加算すると異様に早い（かも）</h2>
+  <div class="desc">
+    <h5><i class="fas fa-heart"></i> : 1 / <i class="fas fa-code-branch"></i> : 0 </h5>
+同じ長さ、値のArray,Vector,Vector3Dをaddと同じ処理を100万回実行した時の処理時間（ミリ/秒）  <br>その２  <br>MacBookPro2.4Gh,OSX 10.5.6  <br>Array0:348//前回と同じ  <br>Array1:320//決め打  <br>Vector0:85//前回と同じ  <br>Vector1:80//決め打  <br>Vector3D0:623//前回と同じ  <br>Vector3D1:17//要素毎に加算  <br>Vector3D2:656//addの代わりの関数を作った  <br>Vector3D3:625//addの代わりの関数を作った2  <br>null:6//Vector3Dをnewしてforでまわすだけ。  <br>  <br>Vector3Dを要素毎に加算すると異様に早い。  <br>けど、早すぎてちょっと信じられない感じ。  <br>いろいろ検証が必要。  <br>  <br>add以外にもいろいろ試してみるといいかも。  <br>  <br>  <br> --------------------------------------------------------  <br><fork元より>  <br>->Array が Vector より非常に遅いのは，たぶん確定．  <br>->関数呼出 と new が非常に遅いのも，たぶん確定．  <br>->ループによるインデックス呼出とループ展開ではあまり差が無い可能性（×確定）．  <br>  <br><Vector3D0とVector3D1について>  <br>->メンバアクセスよりインデックスアクセスの方が遅い？  <br>（クラス宣言による固定インデックスでのアクセスの方が，変数インデックスでのアクセスより最適化しやすい  <br>->確かこれってAS3のAdobeの発表資料に書いてあった気がするな．未確認）  <br>->ローカルで確保したVectorとVector3Dのメモリ空間の違い？  <br>（_v0c:Vectorはヒープ，_v3c:Vector3Dはスタック上に確保される形で最適化されてる可能性  <br>->関数の外で参照されないインスタンスをスタック上に展開するのは割と良くある最適化手法．）  <br>->VectorとVector3Dでキャッシュヒット率が違う  <br>（一般論．VectorもVector3Dも整然と固まってるだろうし，ループで回す分には同じ気がするけど．．．  <br>->というか，fork元のルーチンだと同じ位置に100万回アクセスしてるので，今回の差には影響してないはず）  <br>->素直に１００万個のVector x 3で計算す
+  </div>
+
   <object>
     <embed src="vecor3Dtest.swf" width="465" height="465"/>
   </object>

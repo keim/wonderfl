@@ -1,34 +1,30 @@
-<!DOCTYPE html>
-<title>Ruffle</title>
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+﻿<!DOCTYPE html>
+<title>YAWA - Yet Another Wonderfl API v0.16 (SWF素材)</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<script>
-  function filter(tag) {
-    $(".nav-item>a").removeClass("active");
-    $(".nav-item>a[tag='"+tag+"']").addClass("active");
-    $("#content").removeClass().addClass(tag);
-  }
-  
-  $(()=>{
-    if (location.hash) filter(location.hash.substr(1));
-    $(".nav-item>a").on("click", e=>{
-      const $t = $(e.currentTarget);
-      tag = $t.attr("tag");
-      filter(tag);
-      history.pushState(tag, "", "#"+tag);
-      return false;
-    });
-  });
-</script>
-  
-<div class="container-fluid">
+
+<style>
+.desc {
+  width: 100%;
+  margin: 4px;
+  padding: 8px;
+  border: solid #999 1px;
+  border-radius: 4px;
+}
+</style>
+
+<div class="container">
   <nav class="nav">
     <a class="nav-link" href="http://keim.github.io"><i class="fas fa-home"></i></a></li>
     <a class="nav-link" href="https://github.com/keim"><i class="fab fa-github"></i></a></li>
   </nav>
-  <h2>My Flash works</h2>
-  <a href="https://keim.github.io/wonderfl/">&lt;&lt; back</a>
+
+  <h2>YAWA - Yet Another Wonderfl API v0.16 (SWF素材)</h2>
+  <div class="desc">
+    <h5><i class="fas fa-heart"></i> : 22 / <i class="fas fa-code-branch"></i> : 3 </h5>
+You can get more informations than official API !  <br>The basic idea is from http://fl.corge.net/c/gJXA (created by wh0)  <br>かなり縦横無尽に情報が取れる wonderflAPI．運営様に怒られたら消します．htmlの書式が変わったら使えなくなります．  <br>  <br>// basic functions  <br>requestUserRanking(responseHandler, days, order, page);  <br>requestCodeRanking(responseHandler, days, order, page);  <br>requestTagCloud(responseHandler);  <br>requestUserInfo(responseHandler, userID, informationType, page);  <br>requestCodeInfo(responseHandler, codeID, order(N/A), page);  <br>requestTagInfo(responseHandler, tag, page);  <br>(where responseHandeler(data:*) : void {})  <br>// analyze imported libraries  <br>analyzeLibraries(as3code) : *  <br>webpage; http://soundimpulse.sakura.ne.jp/yawa-yet-another-wonderfl-api/
+  </div>
+
   <object>
     <embed src="YAWA.swf" width="465" height="465"/>
   </object>
